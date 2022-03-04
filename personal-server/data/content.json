@@ -1,0 +1,16 @@
+{
+    "content": {
+        "header" : "Welcome to my server",
+        "body": [
+            "you can see my projects here",
+            "Mu content and secret messages",
+            "this is my personal space",
+            "Not russians allowed"
+        ],
+        "footer" : "| Jed Dev Center property | Hack Me!"
+    },
+
+    "images": {
+        "header": "https://jaredlarios.github.io/personal/personal-server/images/xbox.jpg"
+    } 
+}
