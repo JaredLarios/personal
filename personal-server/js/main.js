@@ -1,0 +1,13 @@
+import home from "./home-content";
+
+const url = 'https://jaredlarios.github.io/personal/personal-server/data/content.json';
+
+fetch(url)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(
+      (objJson) => {
+          home.header(objJson);
+          console.log(objJson)
+    })
