@@ -9,5 +9,7 @@ fetch(url)
     .then(
       (objJson) => {
           home.header(objJson);
-          console.log(objJson)
+          console.log(objJson);
+
+          home.body(objJson)
     })
