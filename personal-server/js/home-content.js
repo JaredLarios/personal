@@ -5,7 +5,7 @@ const home = {
     header: (e) => {
         head.innerHTML = `
             <img src='${e.images.header}'>
-            <div class='img-header'>
+            <div class='banner-header'>
                 <h1>${e.content.header}<h1>
             </div>              
         `
